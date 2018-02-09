@@ -21,7 +21,7 @@ public:
         stepY = ofGetMouseY()+2;
         if(stepX < 2) stepX = 2;
         if(stepY < 2) stepY = 2;
-        cout << stepX << " - " << stepY << endl;
+//        cout << stepX << " - " << stepY << endl;
         for(int gridY = 0; gridY < ofGetHeight(); gridY += stepY) {
             for(int gridX = 0; gridX < ofGetWidth(); gridX += stepX){
                 float h = gridX / 800.0;
